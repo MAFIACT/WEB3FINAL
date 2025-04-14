@@ -14,8 +14,8 @@
     "ethers": "^6.7.0",
     "wagmi": "1.4.0",
     "viem": "1.4.0",
-    "@web3modal/react": "2.5.2",
-    "@web3modal/ethereum": "2.5.2"
+    "@web3modal/react": "2.6.2",
+    "@web3modal/ethereum": "2.6.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1",
