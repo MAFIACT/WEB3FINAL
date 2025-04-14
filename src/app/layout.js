@@ -1,5 +1,5 @@
 import './globals.css'
-import { Web3Modal } from '../lib/wallet'
+import Providers from './providers'
 
 export const metadata = {
   title: 'Web3 Dashboard',
@@ -10,8 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
-        <Web3Modal />
+        <Providers>{children}</Providers>
       </body>
     </html>
   )
