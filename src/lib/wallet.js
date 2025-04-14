@@ -1,15 +1,15 @@
 'use client'
 
-import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
+import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/react'
 import { EthereumClient } from '@web3modal/ethereum'
 import { base } from 'wagmi/chains'
 
-export const projectId = 'TON_PROJECT_ID' // remplace par le tien
+export const projectId = 'TON_PROJECT_ID' // remplace ici
 
 const metadata = {
   name: 'Web3 Dashboard',
   description: 'Wallet & PNL on Base',
-  url: 'https://my-web3-dashboard.vercel.app',
+  url: 'https://web3modal.com',
   icons: ['https://avatars.githubusercontent.com/u/37784886']
 }
 
